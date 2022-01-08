@@ -1,5 +1,5 @@
 {
-  "name": "Team-Profile-Generator",
+  "name": "team-builder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ahoward21/Team-Profile-Generator.git"
+    "url": "git+https://github.com/Ahoward21/team-builder.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ahoward21/Team-Profile-Generator/issues"
+    "url": "https://github.com/Ahoward21/team-builder/issues"
   },
-  "homepage": "https://github.com/Ahoward21/Team-Profile-Generator#readme",
+  "homepage": "https://github.com/Ahoward21/team-builder#readme",
   "dependencies": {
     "inquirer": "^8.2.0"
   },

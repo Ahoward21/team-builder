@@ -6,7 +6,7 @@ const renderManager = pageData => {
             <div class="card-header text-light" style="background-color: darkgrey;">
               <h3>${pageData.managerName}</h3>
               <span>
-                  <i class="fas fa-mug-hot"></i> Manager
+                   Manager
               </span>
             </div>
             <div class="card-body">
@@ -28,7 +28,7 @@ const renderEngineers = engineerArr => {
                 <div class="card-header text-light" style="background-color: darkgrey;">
                   <h3>${engineer.engineerName}</h3>
                   <span>
-                  <i class="fas fa-cogs"></i> Engineer
+                   Engineer
                   </span>
                 </div>
                 <div class="card-body">
@@ -53,7 +53,7 @@ const renderInterns = internArr => {
                 <div class="card-header text-light" style="background-color: darkgrey;">
                   <h3>${intern.internName}</h3>
                   <span>
-                  <i class="fas fa-graduation-cap"></i> Intern
+                   Intern
                   </span>
                 </div>
                 <div class="card-body">
@@ -85,11 +85,10 @@ const generateHTML = pageData => {
     <script src="https://kit.fontawesome.com/cb341cc7fd.js" crossorigin="anonymous"></script>
     <title>Team Profile</title>
 </head>
-<body>
+<body style="background-color: offwhite;">
     <nav class="navbar navbar-light" style="background-color: darkgrey;">
         <div class="container-fluid d-flex justify-content-center">
           <a class="navbar-brand text-light fs-1" href="#">
-            <i class="fas fa-users"></i>
             My Team
           </a>
         </div>
