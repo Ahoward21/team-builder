@@ -3,7 +3,7 @@
 const renderManager = pageData => {
     return `
         <div class="card shadow">
-            <div class="card-header text-light" style="background-color: #7f4db9;">
+            <div class="card-header text-light" style="background-color: darkgrey;">
               <h3>${pageData.managerName}</h3>
               <span>
                   <i class="fas fa-mug-hot"></i> Manager
@@ -25,7 +25,7 @@ const renderEngineers = engineerArr => {
         return engineerArr.map(engineer => {
             return `
             <div class="card shadow">
-                <div class="card-header text-light" style="background-color: #7f4db9;">
+                <div class="card-header text-light" style="background-color: darkgrey;">
                   <h3>${engineer.engineerName}</h3>
                   <span>
                   <i class="fas fa-cogs"></i> Engineer
@@ -50,7 +50,7 @@ const renderInterns = internArr => {
         return internArr.map(intern => {
             return `
             <div class="card shadow">
-                <div class="card-header text-light" style="background-color: #7f4db9;">
+                <div class="card-header text-light" style="background-color: darkgrey;">
                   <h3>${intern.internName}</h3>
                   <span>
                   <i class="fas fa-graduation-cap"></i> Intern
@@ -86,7 +86,7 @@ const generateHTML = pageData => {
     <title>Team Profile</title>
 </head>
 <body>
-    <nav class="navbar navbar-light" style="background-color: #562a88;">
+    <nav class="navbar navbar-light" style="background-color: darkgrey;">
         <div class="container-fluid d-flex justify-content-center">
           <a class="navbar-brand text-light fs-1" href="#">
             <i class="fas fa-users"></i>

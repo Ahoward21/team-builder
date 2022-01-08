@@ -14,7 +14,7 @@ describe('Intern', () => {
             expect(adam.name).toBe('adam')
             expect(adam.id).toBe(1)
             expect(adam.email).toBe('adam@gmail.com')
-            expect(adam.school).toBe('Ruters')
+            expect(adam.school).toBe('Rutgers')
         })
 
         it('should gets Intern school', () => {
