@@ -14,7 +14,7 @@
 
 
 ## Installation
-code must have NPM installed as well as npm inquirer
+Code must have NPM installed as well as npm inquirer
 
 ## Usage
 
@@ -22,6 +22,7 @@ Command line code to create a HTML page for your team!
 
 ## Video Demo
 
+https://watch.screencastify.com/v/UuX7NZk1AKMzTriSDcGU
 
 
 ## License Information
